@@ -5,7 +5,7 @@ This repository contains scripts and binaries to run the benchmarks from
 
 ## Usage
 
-Running the (run.sh)[run.sh] script will initiate the benchmarks.  
+Running the [`run.sh`](run.sh) script will initiate the benchmarks.  
 The script takes a single argument that is a string of the year of the MaxSAT evaluation for which the benchmarks should be ran.  
 For example:
 
