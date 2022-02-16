@@ -1,7 +1,7 @@
 # A Certified MaxSAT solver: benchmarks
 
 This repository contains scripts and binaries to run the benchmarks from  
-**_D .Vandesande, W. De Wulf, B. Bogaerts. A Certified MaxSAT solver._**.
+**_D .Vandesande, W. De Wulf, B. Bogaerts. A Certified MaxSAT solver. (to be submitted at SAT2022)_**
 
 ## Usage
 
