@@ -1,11 +1,12 @@
 # A Certified MaxSAT solver: benchmarks
 
-This repository contains scripts and binaries to run the benchmarks from **_D .Vandesande, W. De Wulf, B. Bogaerts. A Certified MaxSAT solver._**.
+This repository contains scripts and binaries to run the benchmarks from  
+**_D .Vandesande, W. De Wulf, B. Bogaerts. A Certified MaxSAT solver._**.
 
 ## Usage
 
-Running the (`run.sh`)[run.sh] script will initiate the benchmarks.
-The script takes a single argument that is a string of the year of the MaxSAT evaluation for which the benchmarks should be ran.
+Running the (run.sh)[run.sh] script will initiate the benchmarks.  
+The script takes a single argument that is a string of the year of the MaxSAT evaluation for which the benchmarks should be ran.  
 For example:
 
 ```console
@@ -13,7 +14,7 @@ For example:
 ```
 
 will run the 2010 MaxSAT evaluation benchmarks.
-The results for each instances are written to a `.csv` with the following columns:
+The results are written to a `.csv` with the following columns:
 | Instance | vanilla solving time (s) | totalizer generation time (s) | vanilla used memory (MB) | prooflogging solving time (s) | proof size (MB) | totalizer generation time (s) | totalizer prooflogging time (s) | verification time (s) | verification used memory (MB) | verification status |
 | --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
 
