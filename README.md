@@ -13,13 +13,13 @@ For example:
 ./run.sh 2010
 ```
 
-will run the 2010 MaxSAT evaluation benchmarks.
+will run the 2010 MaxSAT evaluation benchmarks.  
 The results are written to a `.csv` with the following columns:
 | Instance | vanilla solving time (s) | totalizer generation time (s) | vanilla used memory (MB) | prooflogging solving time (s) | proof size (MB) | totalizer generation time (s) | totalizer prooflogging time (s) | verification time (s) | verification used memory (MB) | verification status |
 | --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
 
 ## Warning
 
-The memory limits for the 2021 MaxSAT evaluation exceed an average computer's resources (32GB).
-Additionally, verification is always allowed twice the solving memory limit.
+The memory limits for the 2021 MaxSAT evaluation exceed an average computer's resources (32GB).  
+Additionally, verification is always allowed twice the solving memory limit.  
 We therefore strongly advice to run this script on a cluster that has sufficient resources.
