@@ -15,7 +15,7 @@ For example:
 
 will run the 2010 MaxSAT evaluation benchmarks.  
 The results are written to a `.csv` with the following columns:
-| Instance | vanilla solving time (s) | totalizer generation time (s) | vanilla used memory (MB) | prooflogging solving time (s) | proof size (MB) | totalizer generation time (s) | totalizer prooflogging time (s) | verification time (s) | verification used memory (MB) | verification status |
+| Instance | vanilla solving time (s) | totalizer generation time (s) | vanilla used memory (MB) | prooflogging solving time (s) | proof size (B) | totalizer generation time (s) | totalizer prooflogging time (s) | verification time (s) | verification used memory (MB) | verification status |
 | --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |
 
 ## Warning
