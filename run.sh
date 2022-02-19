@@ -24,7 +24,7 @@ done
 let TIMEOUT_SOLVER_PL=TIMEOUT_SOLVER
 let TIMEOUT_VERIPB=10*$TIMEOUT_SOLVER
 let MEMOUT_SOLVER_PL=MEMOUT_SOLVER
-let MEMOUT_VERIPB=2*$MEMOUT_SOLVER
+let MEMOUT_VERIPB=1.25*$MEMOUT_SOLVER
 TMPDIR=tmpdir
 
 for filename in $(ls "$instances")
@@ -127,10 +127,6 @@ do
 
             # extract space
             res_mem_verification=$(cat $TMPDIR/${filename}.txt | grep 'space:' | grep -Eo '[+-]?[0-9]+([.][0-9]+)?');
-
-            # status
-            status=$(cat $TMPDIR/${filename}.txt | grep 'status:' | awk '{print $3}');
-
 
       	    echo "$filename verification:"
     	    echo "runtime: $res_runtime_verification "
