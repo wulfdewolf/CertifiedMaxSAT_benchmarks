@@ -21,5 +21,5 @@ The results are written to a `.csv` with the following columns:
 ## Warning
 
 The memory limits for the 2021 MaxSAT evaluation exceed an average computer's resources (32GB).  
-Additionally, verification is always allowed twice the solving memory limit.  
+Additionally, verification is always allowed 1.25 times the solving memory limit.  
 We therefore strongly advice to run this script on a cluster that has sufficient resources.
