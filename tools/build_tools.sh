@@ -60,21 +60,18 @@ rm -rf $ROOT_DIR/tools/qmaxsatpb/minisat $ROOT_DIR/tools/qmaxsatpb/qmaxsat
 #---------------------------------------------------
 cd $ROOT_DIR/tools/veripb
 
-# Untar archive
-unrar x -ad veripb.rar 
-
-# Apply WCNF patch
-cd veripb
-patch -p1 < $ROOT_DIR/patches/veripb_wcnf.patch
+# Unzip archive
+unzip tools/veripb/VeriPB-master
 
 # Install
+cd VeriPB-master
 pip3 install ./
 
 # Clean up
-rm -rf $ROOT_DIR/tools/veripb/veripb
+rm -rf $ROOT_DIR/tools/veripb/VeriPB-master
 
 #---------------------------------------------------
-# Build VeriPB
+# Build runlim
 #---------------------------------------------------
 cd $ROOT_DIR/tools/limiter
 
